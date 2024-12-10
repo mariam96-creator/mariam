@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CART pages</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+<link rel="stylesheet" href="../css/pages/footer.css">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+/>
+<link rel="stylesheet" href="../css/pages/cart.css">
+</head>
+<body style="height: 100vh;
+ display: grid; 
+ align-items: center;
+ grid-template-rows: auto 1fr auto ;">
+ <header class="flex">
+        <a href="/"  class="logo">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span style="font-weight: bold;"> 2MJ</span>
+            <P style="letter-spacing: 0.5px;">Shopping</P>
+        </a>
+        <div class="links">
+            <a style="position: relative;" class="cart" href=""> <i class="fa-solid fa-cart-shopping"></i> cart
+                <span class="product-number"> 2</span></a>
+            <a class="signin" href="./sign in.html"> <i class="fa-solid fa-right-to-bracket"></i> signin</a>
+            <a class="register" href="./register.html"> Register <i class="fa-solid fa-person-circle-plus"></i></a>
+        </div>
+    </header>   
+    <main  style="text-align: center;"  class="">
+    <section class="cart">
+     <article class="product flex">
+        <button>
+            <i class="fa-solid fa-trash-can"> </i>
+          </button>
+          <p class="price">$700</p>
+          <div class="flex" style="margin-right: 1rem">
+            <button class="decrease">-</button>
+            <div class="quantity flex">3</div>
+            <button class="increase">+</button>
+          </div>
+          <p class="title">Product Title</p>
+          <img
+          style="border-radius: 0.22rem"
+          width="70"
+          height="70"
+          alt=""
+          src="../images/7.webp"/>
+     </article>   
+     <article class="product flex">
+        <button>
+            <i class="fa-solid fa-trash-can"> </i>
+          </button>
+          <p class="price">$100</p>
+          <div class="flex" style="margin-right: 1rem">
+            <button class="decrease">-</button>
+            <div class="quantity flex">3</div>
+            <button class="increase">+</button>
+          </div>
+          <p class="title">Product Title</p>
+          <img
+          style="border-radius: 0.22rem"
+          width="70"
+          height="70"
+          alt=""
+          src="../images/ho.jpg"/>
+     </article>   
+     <article class="product flex">
+        <button>
+            <i class="fa-solid fa-trash-can"> </i>
+          </button>
+          <p class="price">$10000</p>
+          <div class="flex" style="margin-right: 1rem">
+            <button class="decrease">-</button>
+            <div class="quantity flex">3</div>
+            <button class="increase">+</button>
+          </div>
+          <p class="title">Product Title</p>
+          <img
+          style="border-radius: 0.22rem"
+          width="70"
+          height="70"
+          alt=""
+          src="../images/lll.jpg"/>
+     </article>   
+    
+    </section>
+
+
+    <button class="clear"> 
+        <i
+          style="color: #fff; margin-right: 0.2rem"
+          class="fa-solid fa-trash-can icon">
+        </i>
+        Clear cart</button>
+    <section class="summary">
+        <h1>Cart Summary</h1>
+        <div class="flex">
+          <p class="Subtotal">Subtotal</p>
+          <p>$1999</p>
+        </div>
+        <button disabled class="checkout">CHECKOUT</button>
+
+        <a href="./sign in.html"> Please Sign in to continue. </a>
+      </section>
+    </section>
+    </main>
+    <footer> Dsign and developed by <span> 2MJ</span>@ 2024</footer>
+</body>
+</html>
